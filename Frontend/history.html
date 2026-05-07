@@ -1,19 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>PocketTrack</title>
-
+    <title>Expense History</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
 
     <div class="app">
@@ -22,7 +14,7 @@
 
             <h2>PocketTrack</h2>
 
-            <a href="#">Dashboard</a>
+            <a href="index.html">Dashboard</a>
 
             <a href="add-expense.html">Add Expense</a>
 
@@ -36,78 +28,42 @@
 
         <main class="main-content">
 
-            <h1>Welcome back 👋</h1>
+            <h1>Expense History</h1>
 
-            <p>Monitor your spending, track expenses, and stay within your monthly budget.</p>
-
-            <section class="cards">
-
-                <div class="card">
-
-                    <h3>Total Spent</h3>
-
-                    <p>$420</p>
-
-                </div>
-
-                <div class="card">
-
-                    <h3>Monthly Budget</h3>
-
-                    <p>$800</p>
-
-                </div>
-
-                <div class="card">
-
-                    <h3>Remaining</h3>
-
-                    <p>$380</p>
-
-                </div>
-
-            </section>
+            <p>View and manage all recorded expenses.</p>
 
             <section class="expense-section">
-
-                <h2>Recent Expenses</h2>
 
                 <table>
 
                     <tr>
-
                         <th>Date</th>
-
                         <th>Category</th>
-
                         <th>Description</th>
-
                         <th>Amount</th>
-
+                        <th>Action</th>
                     </tr>
 
                     <tr>
-
                         <td>May 6</td>
-
                         <td>Food</td>
-
                         <td>Lunch</td>
-
                         <td>$12</td>
-
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
                     </tr>
 
                     <tr>
-
                         <td>May 5</td>
-
                         <td>Transport</td>
-
                         <td>Uber</td>
-
                         <td>$18</td>
-
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
                     </tr>
 
                 </table>
@@ -119,5 +75,4 @@
     </div>
 
 </body>
-
 </html>
